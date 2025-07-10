@@ -53,6 +53,20 @@ Code documentation is available in `target/site/apidocs/index.html` after runnin
 ```bash
 mvn javadoc:javadoc
 ````
+##  Project Structure
+```
+src/
+└── main/
+└── java/
+└── com/example/security/
+├── ControllerRegister.java 
+├── MvcConfig.java 
+├── SecurityApplication.java
+├── User.java 
+├── UserRepository.java 
+├── UserService.java
+├── WebSecurityConfig.java  
+```
 ## Author
 
 Daniel Aldana — [GitHub](https://github.com/Daniel-Aldana10)
